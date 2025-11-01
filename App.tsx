@@ -32,7 +32,7 @@ const App: React.FC = () => {
       </main>
       <Footer />
       <a 
-        href="https://wa.me/5511961148755?text=Olá! Quero falar sobre um show do Hugo Lins."
+        href="https://wa.me/5511961148755?text=Olá! Gostaria de fazer um orçamento."
         target="_blank" 
         rel="noopener noreferrer"
         aria-label="Fale com a gente no WhatsApp"

@@ -61,7 +61,7 @@ const HeroSection: React.FC = () => {
           </a>
 
           <a
-            href="https://open.spotify.com/playlist/37i9dQZF1DX1s9knjP51Oa?si=1f7e0a2b0e4c4d1c"
+            href="https://open.spotify.com/playlist/6Oix3oAsYpkcq1hE6HSXoo"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-transparent border-2 border-white text-white font-semibold py-3 px-8 rounded-full text-lg hover:bg-brand-orange hover:border-brand-orange transform hover:scale-105 transition-all duration-300"

@@ -2,10 +2,10 @@
 import React from 'react';
 
 const socialMedia = [
-  { icon: 'fa-spotify', href: '#', label: 'Spotify' },
-  { icon: 'fa-youtube', href: '#', label: 'YouTube' },
-  { icon: 'fa-instagram', href: '#', label: 'Instagram' },
-  { icon: 'fa-tiktok', href: '#', label: 'TikTok' },
+  { icon: 'fa-spotify', href: 'https://open.spotify.com/playlist/6Oix3oAsYpkcq1hE6HSXoo', label: 'Spotify' },
+  { icon: 'fa-youtube', href: 'https://www.youtube.com/@hugolins8872', label: 'YouTube' },
+  { icon: 'fa-instagram', href: 'https://www.instagram.com/hugolinsoficial/', label: 'Instagram' },
+  { icon: 'fa-tiktok', href: 'https://www.tiktok.com/@hugolinsoficial', label: 'TikTok' },
 ];
 
 const SocialLinks: React.FC = () => {

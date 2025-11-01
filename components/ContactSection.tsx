@@ -42,7 +42,7 @@ const ContactSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-6" data-aos="fade-right">
             <a 
-              href="https://wa.me/5511961148755?text=Olá! Quero falar sobre um show do Hugo Lins."
+              href="https://wa.me/5511961148755?text=Olá! Gostaria de fazer um orçamento."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#25D366] text-white p-6 rounded-xl flex items-center gap-5 shadow-[0_4px_15px_rgba(37,211,102,0.3)] hover:brightness-110 transition-all duration-300"

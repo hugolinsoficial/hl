@@ -51,7 +51,7 @@ const HeroSection: React.FC = () => {
           data-aos-delay="400"
         >
           <a
-            href="https://wa.me/5511961148755?text=Olá! Quero falar sobre um show do Hugo Lins."
+            href="https://wa.me/5511961148755?text=Olá! Gostaria de fazer um orçamento."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#25D366] text-white font-bold py-3 px-6 md:py-4 md:px-8 rounded-xl shadow-[0_4px_15px_rgba(37,211,102,0.3)] hover:brightness-110 transform transition-all duration-300 inline-flex items-center gap-3 text-lg"

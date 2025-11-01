@@ -13,7 +13,7 @@ const ContactSection: React.FC = () => {
     const data = new FormData(form);
     
     try {
-      const response = await fetch("https://formsubmit.co/ajax/seu-email-aqui@exemplo.com", { // <-- SUBSTITUA PELO SEU E-MAIL
+      const response = await fetch("https://formsubmit.co/ajax/audiolrproducoes@gmail.com", { // <-- SUBSTITUA PELO SEU E-MAIL
         method: 'POST',
         body: data,
         headers: {
@@ -57,7 +57,7 @@ const ContactSection: React.FC = () => {
               <i className="fas fa-envelope text-3xl text-brand-orange"></i>
               <div>
                 <h3 className="text-xl font-bold text-white">E-mail</h3>
-                <a href="mailto:contato@hugolins.com" className="text-lg text-gray-300 hover:text-brand-orange transition-colors">contato@hugolins.com</a>
+                <a href="mailto:audiolrproducoes@gmail.com" className="text-lg text-gray-300 hover:text-brand-orange transition-colors">audiolrproducoes@gmail.com</a>
               </div>
             </div>
              <div className="bg-white/10 p-6 rounded-lg flex items-center gap-5">

@@ -2,12 +2,17 @@
 import React from 'react';
 
 const songs = [
-  "Evidências",
+  "Até Você Voltar",
+  "Eu Ligo Pra Você",
+  "Cê Que Sabe",
+  "Decide Aí",
+  "Vidinha De Balada",
+  "Amo Noite E Dia",
+  "Que Sorte A Nossa",
   "Cuida Bem Dela",
-  "Tá Escrito",
-  "Classificados",
-  "Amei Te Ver",
-  "Pássaro de Fogo"
+  "Recadidas",
+  "Suíte 14",
+  "Jeito Carinhoso"
 ];
 
 const RepertoireSection: React.FC = () => {
@@ -53,16 +58,16 @@ const RepertoireSection: React.FC = () => {
               ></iframe>
             </div>
             <div className="rounded-xl overflow-hidden shadow-2xl aspect-video">
-              <iframe 
-                width="100%" 
-                height="100%" 
-                src="https://www.youtube.com/watch?v=wV5VoEMFlmU" 
-                title="YouTube video player" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowFullScreen
-              ></iframe>
-            </div>
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/wV5VoEMFlmU?rel=0&modestbranding=1&playsinline=1"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
+</div>
           </div>
         </div>
       </div>

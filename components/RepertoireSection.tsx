@@ -30,7 +30,7 @@ const RepertoireSection: React.FC = () => {
             </ul>
             <div className="text-center">
               <a
-                href="https://open.spotify.com/playlist/37i9dQZF1DX1s9knjP51Oa?si=1f7e0a2b0e4c4d1c"
+                href="https://open.spotify.com/playlist/6Oix3oAsYpkcq1hE6HSXoo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-blue text-white font-semibold py-3 px-8 rounded-full text-lg shadow-lg hover:bg-opacity-90 hover:shadow-xl transform hover:scale-105 transition-all duration-300"
@@ -43,7 +43,7 @@ const RepertoireSection: React.FC = () => {
              <div className="rounded-xl overflow-hidden shadow-2xl">
               <iframe
                 style={{ borderRadius: '12px' }}
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1s9knjP51Oa?utm_source=generator&theme=0"
+                src="https://open.spotify.com/embed/playlist/6Oix3oAsYpkcq1hE6HSXoo?utm_source=generator&theme=0"
                 width="100%"
                 height="352"
                 frameBorder="0"

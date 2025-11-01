@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
           poster="/videos/hero-poster.jpg" // opcional: imagem de pré-carregamento
           className="absolute top-1/2 left-1/2 w-auto min-w-full min-h-full max-w-none transform -translate-x-1/2 -translate-y-1/2 object-cover"
         >
-          <source src="/videos/hero.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}videos/hero.mp4`} type="video/mp4" />
           Seu navegador não suporta a tag de vídeo.
         </video>
 

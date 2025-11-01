@@ -10,7 +10,7 @@ const songs = [
   "Amo Noite E Dia",
   "Que Sorte A Nossa",
   "Cuida Bem Dela",
-  "Recadidas",
+  "Recaídas",
   "Suíte 14",
   "Jeito Carinhoso"
 ];

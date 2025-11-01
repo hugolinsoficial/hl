@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const navLinks = [
@@ -36,9 +35,16 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#home" className="text-2xl font-serif font-bold text-white transition-colors hover:text-brand-orange" data-aos="fade-down">
-          Hugo Lins
+
+        {/* ✅ LOGO AQUI — COLE SUA URL NO src="" */}
+        <a href="#home" className="flex items-center" data-aos="fade-down">
+          <img 
+            src="https://i.postimg.cc/Kv1rMQFW/logo-principal-otimizada.webp" 
+            alt="Hugo Lins Logo" 
+            className="h-12 w-auto object-contain brightness-110 hover:brightness-125 transition-all"
+          />
         </a>
+
         <nav className="hidden md:flex space-x-6">
           {navLinks.map((link) => (
             <a
@@ -52,12 +58,14 @@ const Header: React.FC = () => {
             </a>
           ))}
         </nav>
+
         <div className="md:hidden">
           <button onClick={toggleMenu} aria-label="Toggle menu">
             <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'} text-2xl text-white`}></i>
           </button>
         </div>
       </div>
+
       {isMenuOpen && (
         <div className="md:hidden bg-brand-blue pb-4" data-aos="fade-down">
           <nav className="flex flex-col items-center space-y-4">
